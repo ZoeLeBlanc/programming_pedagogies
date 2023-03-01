@@ -13,3 +13,8 @@ Next steps:
 
 Next steps:
 - Owen will work on turning his keywords data into a csv file or a list and then exploring frequency of those terms in the data
+
+
+#### March 1, 2023
+
+- Realized we need to redo filtering on which repos to include in the data. Because currently we are 
