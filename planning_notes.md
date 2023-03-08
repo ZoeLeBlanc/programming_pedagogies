@@ -15,6 +15,14 @@ Next steps:
 - Owen will work on turning his keywords data into a csv file or a list and then exploring frequency of those terms in the data
 
 
-#### March 1, 2023
+#### March 8, 2023
 
-- Realized we need to redo filtering on which repos to include in the data. Because currently we are 
+- Starting to have our filtered repositories - so now need to decide how to analyze them
+- Data we could scrape from filtered repositories:
+  - who has starred or forked the repo
+  - who has contributed to the repo (whether code or issues)
+  - who owns the repo and whether they star or fork or follow other repos in our datasets
+- Content within the repository:
+  - <https://api.github.com/repos/ZoeLeBlanc/programming_pedagogies/contents/>
+  - could download the files and then analyze them
+  - could extract the skill/topic from the file name
